@@ -1,0 +1,41 @@
+# Build output
+target/
+build/
+out/
+bin/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+
+# Java
+*.class
+hs_err_pid*
+replay_pid*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Runtime data (SQLite database, quarantine, exported reports)
+.face-security-suite/
+data/
+quarantine/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+exports/
+*.pdf
+*.csv
+!src/**/*.csv
+
+# Logs
+*.log
